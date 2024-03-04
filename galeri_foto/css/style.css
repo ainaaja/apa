@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background-color: #f8f8f8;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+#bg-login {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.box-login {
+  width: 300px;
+  min-height: 200px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.box-login h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.input-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: rgb(133, 133, 133) 2px solid;
+}
+.btn {
+  padding: 8px 15px;
+  background-color: #0077c7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+header {
+  background-color: #0077c7;
+  color: #fff;
+}
+header h1 {
+  float: left;
+  padding: 10px 0;
+}
+header ul {
+  float: right;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  padding: 20px 0 20px 15px;
+  display: inline-block;
+}
+footer {
+  padding: 25px 0;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+header > .container {
+  width: 80%;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.section {
+  padding: 25px 0;
+}
+.sticky-top {
+  position: sticky;
+  top: 0;
+}
+.box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 10px 0 25px 0;
+  border-radius: 16pt;
+}
+.box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-color: #666;
+}
+.table tr {
+  height: 30px;
+}
+.table tr td {
+  padding: 5px 10px;
+}
+.search {
+  text-align: center;
+  margin-left: 12px;
+}
+.search input[type="text"] {
+  padding: 10px;
+}
+.search input[type="submit"] {
+  padding: 12px 15px;
+  background-color: #195277;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+.buatkomentar {
+	width: 100%;
+  /* position: sticky;
+  bottom: 0;
+  marginbottom */
+}
+.buatkomentar input[type="text"] {
+  padding: 10px;
+  width: 100%;
+}
+.buatkomentar input[type="submit"] {
+  padding: 12px 15px;
+  background-color: #195277;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.col-5 {
+  width: 20%;
+  height: 100px;
+  text-align: center;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.item {
+  width: 25%;
+  height: 230px;
+  border: 1px solid #ccc;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.item:hover {
+  box-shadow: 0 0 3px #999;
+}
+.item img {
+  width: 100%;
+  height: 280pt;
+  object-fit: cover;
+  border-radius: 9pt;
+}
+.item .nama {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 5px;
+}
+.item .admin {
+  font-weight: bold;
+  color: #0077c7;
+}
+.item {
+  width: 100%;
+  height: fit-content;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-radius: 9pt;
+}
+.col-4 {
+  width: 24%;
+  height: 230px;
+  border: 1px solid #ccc;
+  float: left;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+.col-4:hover {
+  box-shadow: 0 0 3px #999;
+}
+.col-4 img {
+  width: 100%;
+}
+.col-4 .nama {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 5px;
+}
+.col-4 .admin {
+  font-weight: bold;
+  color: #0077c7;
+}
+.footer {
+  padding: 25px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+.footer p {
+  margin-bottom: 10px;
+}
+.footer small {
+  margin-top: 25px;
+  display: inline-block;
+}
+.col-2 {
+  width: 50%;
+  min-height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+.col-2 img {
+  border: 1px solid #f9f9f9;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.col-2 h3 {
+  margin-bottom: 10px;
+}
+.col-2 h4 {
+  color: #0077c7;
+}
+.col-2 p {
+  margin: 15px 0;
+  text-align: justify;
+  line-height: 25px;
+  font-size: 14px;
+}
+.komentar span {
+  font-size: 12px;
+  color: rgb(99, 99, 99);
+}
+.komentar .isikomen {
+  border-bottom: solid rgb(139, 139, 139) 1px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .col-5 {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .item {
+    width: 50%;
+    height: 300px;
+  }
+  .col-2 {
+    width: 100%;
+  }
+}
